@@ -6,12 +6,11 @@ using System.Drawing;
 namespace Paint_Graphics
 {
     // Represents a sequence of points drawn with a specific pen.
-    internal class MyLine 
+    internal class MyLine
     {
         private readonly List<Point> points;
         private readonly Pen pen;
-        private bool disposed;
-
+        
         public int Count => points.Count;
 
         public Pen Pen => pen;
